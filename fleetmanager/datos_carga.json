@@ -1,0 +1,33 @@
+[
+    {
+      "model": "fleetApp.vehicle",
+      "pk": 1,
+      "fields": {
+        "registration_plate": "ABC123",
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": "2020-01-01",
+        "active": true
+      }
+    },
+    {
+      "model": "fleetApp.driver",
+      "pk": 1,
+      "fields": {
+        "rut": "123456789",
+        "name": "Juan",
+        "last_name": "Perez",
+        "active": true,
+        "vehicle": "ABC123"
+      }
+    },
+    {
+      "model": "fleetApp.accountingrecord",
+      "pk": 1,
+      "fields": {
+        "purchase_date": "2022-05-01",
+        "price": 20000.0,
+        "vehicle": "ABC123"
+      }
+    }
+  ]
